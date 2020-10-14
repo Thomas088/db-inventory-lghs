@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-13T22:03:01.298Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="uAunvQQIvAD-xYZiEK6n" version="13.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-14T22:02:39.716Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="-RK_dI_QAIPbmU78rqD7" version="13.8.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="946" dy="1039" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -341,30 +341,6 @@
         <mxCell id="y74VVRCNYhYPx3_TxSt0-76" value="remarques : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ELM5-dZRIbPCBCAV7Bgo-99" vertex="1">
           <mxGeometry y="112" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ELM5-dZRIbPCBCAV7Bgo-10" value="MembreEmprunt" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1070" y="211" width="160" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="ELM5-dZRIbPCBCAV7Bgo-84" value="id_article :  Number [PK]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ELM5-dZRIbPCBCAV7Bgo-10" vertex="1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="ELM5-dZRIbPCBCAV7Bgo-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="ELM5-dZRIbPCBCAV7Bgo-10" vertex="1">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="ELM5-dZRIbPCBCAV7Bgo-13" value="Nom :  String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ELM5-dZRIbPCBCAV7Bgo-10" vertex="1">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="ELM5-dZRIbPCBCAV7Bgo-14" value="Prenom :  String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ELM5-dZRIbPCBCAV7Bgo-10" vertex="1">
-          <mxGeometry y="86" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="ELM5-dZRIbPCBCAV7Bgo-11" value="Status : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ELM5-dZRIbPCBCAV7Bgo-10" vertex="1">
-          <mxGeometry y="112" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="ELM5-dZRIbPCBCAV7Bgo-15" value="date_emprunt :  Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ELM5-dZRIbPCBCAV7Bgo-10" vertex="1">
-          <mxGeometry y="138" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="ELM5-dZRIbPCBCAV7Bgo-16" value="date_retour :  Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ELM5-dZRIbPCBCAV7Bgo-10" vertex="1">
-          <mxGeometry y="164" width="160" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="s5E8FHesp4OsmIhibC-d-0" value="Membre" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1250" y="194" width="160" height="190" as="geometry" />
         </mxCell>
@@ -683,6 +659,30 @@
           <mxGeometry x="1" relative="1" as="geometry">
             <mxPoint x="-15" y="-40.06" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ELM5-dZRIbPCBCAV7Bgo-10" value="MembreEmprunt" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1070" y="230" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ELM5-dZRIbPCBCAV7Bgo-84" value="id_article :  Number [PK]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ELM5-dZRIbPCBCAV7Bgo-10" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ELM5-dZRIbPCBCAV7Bgo-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="ELM5-dZRIbPCBCAV7Bgo-10" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ELM5-dZRIbPCBCAV7Bgo-13" value="Nom :  String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ELM5-dZRIbPCBCAV7Bgo-10" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ELM5-dZRIbPCBCAV7Bgo-14" value="Prenom :  String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ELM5-dZRIbPCBCAV7Bgo-10" vertex="1">
+          <mxGeometry y="86" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ELM5-dZRIbPCBCAV7Bgo-11" value="Status : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ELM5-dZRIbPCBCAV7Bgo-10" vertex="1">
+          <mxGeometry y="112" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ELM5-dZRIbPCBCAV7Bgo-15" value="date_emprunt :  Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ELM5-dZRIbPCBCAV7Bgo-10" vertex="1">
+          <mxGeometry y="138" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ELM5-dZRIbPCBCAV7Bgo-16" value="date_retour :  Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ELM5-dZRIbPCBCAV7Bgo-10" vertex="1">
+          <mxGeometry y="164" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
